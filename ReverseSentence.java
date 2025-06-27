@@ -16,6 +16,7 @@ public class ReverseSentence{
 
     public static void reverseSentance(String text) {
 
+        // Method One for reverse the sentence
         ArrayList<String> arr = new ArrayList<>();
 
         for(int i=0;i<text.length();i++){
@@ -40,6 +41,8 @@ public class ReverseSentence{
 
         System.out.println(ans.trim());
 
+
+        // Method Two for reverse the sentence
 
         
         // String[] arr = text.split(" ");
